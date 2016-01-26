@@ -1,0 +1,17 @@
+<h1 id="colorelegido"></h1>
+<h1 style="color:#eee">{{titulo}} {{colores}}</h1><br>
+<button type="button" class="btn btn-alert" ng-click="limpiar">Borrar</button>
+<table cellspacing="10" style="margin: 0 auto">
+		<tr>
+			<td id="verde" ng-click="play('verde')">Verde</td>
+			<td id="rojo" ng-click="play('rojo')">Rojo</td>
+		</tr>
+		<tr>
+			<td id="amarillo" ng-click="play('amarillo')">Amarillo</td>
+			<td id="azul" ng-click="play('azul')">Azul</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" id="resultado"><input id="resultado" type="text"></td>
+		</tr>
+	</table>

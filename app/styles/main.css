@@ -1,0 +1,104 @@
+table{
+  border-collapse: separate;
+  border-spacing:10px;
+}
+
+body{
+      background-color: #79C4EF;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    
+    td{
+      width:180px;
+      height:180px;
+      border:1px solid black;
+      padding:30px;
+      text-align:center;
+      font-family: "Trebuchet MS";
+      
+      
+      margin:2px solid black;
+      border:8px solid black;
+      border-spacing:1px;
+      box-shadow:10px 10px 5px black;
+    -moz-box-shadow:10px 10px 5px black;
+    -webkit-box-shadow:10px 10px 5px black;
+      }
+    #verde{
+      background-color:#059606;
+      border-radius:180px 0 0 0;
+      -moz-border-radius:180px 0 0 0;
+    }
+      
+    #verde:hover{
+      background-color:#059606;
+      border-radius:180px 0 0 0;
+      border-right:5px solid #056106;
+      border-bottom:5px solid #056106;
+      -moz-border-radius:180px 0 0 0;
+      -moz-border-right:5px solid #056106;
+      -moz-border-bottom:5px solid #056106;
+      margin:0px;
+      border:0px;
+    }
+    #rojo{
+      background-color:red;
+      border-radius:0 180px 0 0;
+    }
+    #rojo:hover{
+      background-color:red;
+      border-radius:0 180px 0 0;
+      border-right: 5px solid #910000;
+      border-bottom: 5px solid #910000;
+      border-top:5px solid #910000;
+      -moz-border-radius:0 180px 0 0;
+      -moz-border-right: 5px solid #910000;
+      -moz-border-bottom: 5px solid #910000;
+      -moz-border-top:5px solid #910000;
+      margin:0px;
+      border:0px;
+    }
+    #amarillo{
+      background-color:yellow;
+      border-radius:0 0 0 180px;
+      
+    }
+    #amarillo:hover{
+      background-color:yellow;
+      border-radius:0 0 0 180px;
+      border-right: 5px solid #D1B800;
+      border-top: 5px solid #D1B800;
+      -moz-border-radius:0 0 0 180px;
+      -moz-border-right: 5px solid #D1B800;
+      -moz-border-top: 5px solid #D1B800;
+      margin:0px;
+      border:0px;
+    }
+    
+    #azul{
+      background-color:blue;
+      border-radius:0 0 180px 0;
+    
+    }
+    #azul:hover{
+      background-color:blue;
+      border-radius:0 0 180px 0;
+      border-right: 5px solid #031885;
+      border-bottom: 5px solid #031885;
+      -moz-border-radius:0 0 180px 0;
+      -moz-border-right: 5px solid #031885;
+      -moz-border-bottom: 5px solid #031885;
+      margin:0px;
+      border:0px;
+    }
+    #resultado{
+      text-align:center;
+      border:1px solid #1C5B91;
+      border-radius:20px;
+      -moz-border:1px solid #1C5B91;
+      -moz-border-radius:20px;
+      background-color:#1C5B91;
+    }
