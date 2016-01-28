@@ -1,6 +1,13 @@
 <h1 id="colorelegido"></h1>
-<h1 style="color:#eee">{{titulo}} {{colores}}</h1><br>
+<h1 style="color:#eee">{{titulo}}</h1>
+<h1 style="color:#eee">Verde {{acumuladorverde}}</h1>
+<h1 style="color:#eee">Rojo {{acumuladorrojo}}</h1>
+<h1 style="color:#eee">Amarillo {{acumuladoramarillo}}</h1>
+<h1 style="color:#eee">Azul {{acumuladorazul}}</h1>
+
+<br>
 <button type="button" class="btn btn-alert" ng-click="limpiar()">Borrar</button>
+<button type="button" class="btn btn-alert" ng-click="contar()">Contar</button>
 <table cellspacing="10" style="margin: 0 auto">
 		<tr>
 			<td id="verde" ng-click="play('verde')">Verde</td>
